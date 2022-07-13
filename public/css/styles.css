@@ -1,0 +1,464 @@
+/* .font-body{
+    font-family: Lato-Black;
+} */
+
+
+
+nav{
+    font-family:Lato-Bold;
+}
+
+/* class */
+/* open fuentes */
+.font-lato-black{
+    font-family:Lato-Black;
+}
+.font-lato-italic{
+    font-family: Lato-Italic;
+}
+.font-lato-black-italic{
+    font-family:Lato-BlackItalic;
+}
+.font-lato-bold{
+    font-family:Lato-Bold;
+}
+.font-lato-bold-italic{
+    font-family:Lato-BoldItalic;
+}
+.font-lato-hairline{
+    font-family:Lato-Hairline;
+}
+.font-lato-hairline-italic{
+    font-family:Lato-HairlineItalic;
+}
+.font-lato-Light{
+    font-family:Lato-Light;
+}
+.font-lato-light-italic{
+    font-family:Lato-LightItalic;
+}
+.font-lato-regular{
+    font-family:Lato-Regular;
+}
+/* clase fuentes */
+
+.bg-text-primary{
+    background-color: rgba(255, 215, 162, 0.425);
+    border-radius: 1rem;
+}
+    
+.fondo-footer{
+    background-color: #2d2d2d;
+    /*  position: ; */
+    width: 100%;
+    /* height: 50rem; */
+    
+}
+
+/* TARJETA DEL PRODUCTO */
+.card-title-catalogo{
+    border:none;
+    height: 80px;
+}
+
+.card-title-categoria{
+    border:none;
+    height: 70px;
+}
+
+.card-title-categoria-dos{
+    border:none;
+    height: 50px;
+}
+
+.text-card-producto{
+    font-size:12px;
+}
+.text-card-producto-mini{
+    font-size:10px;
+}
+.text-footer-movil{
+    font-size: 15px;
+}
+.text-footer-pc{
+    font-size: 12px;
+}
+
+.gris-200{
+    background-color: #a3bac7;
+}
+
+.bg-light-nav{
+    background: #f2f5f7;
+}
+.fondo-body{
+    background: #e2e4e5;
+}
+.fondo-title{
+    background: #111213b4;
+}
+
+.fondo-madera{
+    background-image: url('../img/made.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+}
+
+.zise-emoji{
+    font-size: 85px;
+}
+
+.zise-emoji-100{
+    font-size: 100px;
+}
+.logo-zise-85{
+    width: 75px;
+    height: 75px;
+}
+.zise-emoji-50{
+    font-size: 50px;
+}
+
+.ocultar {
+    display: none;
+}
+.mostrar {
+    display: block;
+}
+
+    .ocultar-elemento {
+        display: none;
+    }
+    .mostrar-elemento {
+        display: active;
+    }
+
+/* paletGAME */
+.caja-relative-pantalla {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.582);
+  } 
+  
+  .caja-absolute-pantalla {
+    position: absolute;
+    top: 10%;
+    right: 0%;
+  
+    width: auto;
+    height: auto;
+  }
+  
+    .caja-relative-game{
+        position: relative;
+        width: 100%;
+        height: 450px;
+        /* border: 3px solid #394628; */
+    } 
+  /* paleta */
+  .caja-absolute-game {
+    position: absolute;
+    top: 0%;
+    right: 35%;
+  
+    width: auto;
+    height: auto;
+  }
+  .caja-absolute-game-cojin {
+    position: absolute;
+    top: 7%;
+    right: 35%;
+    /* border: 3px solid #73AD21; */
+  }
+
+  .caja-absolute-game-cojines{
+    position: absolute;
+    top: 0%;
+    right: 5%;
+  }
+
+  .caja-absolute-game-paletas{
+    position: absolute;
+    top: 0%;
+    right: 75%;
+  }
+
+    .activado :hover{
+        border: 1px solid #787e70; 
+        border-radius: 5%;
+        background-color: #fffcf6;
+        cursor: pointer;
+  
+    }
+    .activado-on :hover{
+        border: 1px solid #8cf306; 
+        border-radius: 5%;
+        background-color: #f1a610;
+        cursor: pointer;
+  
+    }
+    /* FIN DEL JUEGO */
+
+    /* FAVORITO */
+    .caja-relative-favorito{
+        position: relative;
+      
+        /* border: 3px solid #394628; */
+    } 
+    /* corazon */
+    .caja-absolute-favorito {
+        position: absolute;
+        top: 0%;
+        right: 5%;
+        width: auto;
+        height: auto;
+    }
+
+     /* CARRITO DE COMPRA */
+     .modal-carrito{
+        position: fixed;
+        top: 0%;
+        right: 0%;
+        height: 100%;
+        width: 100%;
+        
+    }
+   
+    .lista-carro-compra{
+        position: fixed;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        top: 4%;
+        right: 0%;
+        height: 75%;
+        width: 440px;
+    }
+
+    .pie-lista-carro-compra{
+        position: fixed;
+        top: 80%;
+        right: 0%;
+        height: 75%;
+        width: 450px;
+    }
+
+
+
+
+/* PANTALLAS */
+
+@media screen {
+    .zise-input-shear{
+        width: 200px;
+    }
+
+    .image-producto {
+        height: 300px;
+        width: auto;
+        border-radius: 5%;
+        cursor: pointer; 
+    }
+  
+}
+
+@media screen and (min-width: 1080px) {
+    .zise-input-shear{
+        width: 400px;
+    }
+    .image-producto {
+        height: 350px;
+        width: auto;
+        border-radius: 5%;
+        cursor: pointer; 
+    }
+}
+@media screen and (min-width: 1280px) {
+    .zise-input-shear{
+        width: 500px;
+    }
+    .image-producto {
+        height: 400px;
+        width: auto;
+        border-radius: 5%;
+        cursor: pointer; 
+    }
+    
+
+}
+
+@media screen and (min-width: 1480px) {
+    .zise-input-shear{
+        width: 680px;
+    }
+    /* PRODUCTO */
+    .image-producto {
+        height: 455px;
+        width: auto;
+        border-radius: 5%;
+        cursor: pointer;
+       
+    }
+   
+}
+
+.ocultar-menor-mil {
+    display: block;
+}
+.mostrar-menor-mil {
+    display: none;
+   
+}
+
+/* PANTALLA IPAD */
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .ocultar-menor-mil {
+        display: none;
+    }
+    .mostrar-menor-mil {
+        display: block;
+       
+    }
+
+    /* PRODUCTO */
+    .image-producto {
+        height: 355px;
+        width: auto;
+        border-radius: 5%;
+        cursor: pointer;
+       
+    }
+
+}
+
+/* PANTALLA PARA MOVIL */
+@media screen and (max-width: 750px) {
+      
+        .ocultar {
+            display: block;
+        }
+        .mostrar {
+            display: none;
+        }
+        .zise-emoji{
+            font-size: 55px;
+            display: block;
+        }
+        .text-banner-2{
+            font-size: 10px;
+            
+        }  
+        .caja-relative {
+            position: relative;
+            width: 100%;
+            height: auto;
+            /* border: 3px solid #3717eb; */
+          } 
+          
+          .caja-absolute {
+            position: absolute;
+            top: 79%;
+            right: 38%;
+          
+            width: auto;
+            height: auto;
+            /* border: 3px solid #73AD21; */
+          }
+          .caja-absolute-texto {
+            position: absolute;
+            top: 50%;
+            right: -2%;
+            width: 100%;
+            height: auto;
+            /* border: 3px solid #08a8f1; */
+          }
+          .caja-absolute-texto-lg {
+            position: absolute;
+            top: 40%;
+            right: -2%;
+            width: 100%;
+            height: auto;
+            /* border: 3px solid #08a8f1; */
+          }
+  }
+
+  /* pantallas moviles */
+
+    @media screen and (max-width: 540px) {
+        .caja-relative {
+            position: relative;
+            width: 100%;
+            height: auto;
+            /* border: 3px solid #3717eb; */
+          } 
+          
+          .caja-absolute {
+            position: absolute;
+            top: 79%;
+            right: 38%;
+          
+            width: auto;
+            height: auto;
+            /* border: 3px solid #73AD21; */
+          }
+          .caja-absolute-texto {
+            position: absolute;
+            top: 50%;
+            right: -2%;
+            width: 100%;
+            height: auto;
+            /* border: 3px solid #08a8f1; */
+          }
+          .image-producto {
+            height: 250px;
+            width: auto;
+            border-radius: 5%;
+            cursor: pointer; 
+            
+        }
+    }
+
+    @media screen and (max-width: 280px) {
+        .img-zise{
+            margin: 10px;
+            width: 45px;
+            height: 45px;
+        }
+
+        .caja-relative {
+            position: relative;
+            width: 100%;
+            height: auto;
+            /* border: 3px solid #3717eb; */
+          } 
+          
+          .caja-absolute {
+            position: absolute;
+            top: 79%;
+            right: 28%;
+            /* right: 35%; screen 393px */
+            /* right: 33%; screen 360px */
+            /* right: 35%; screen 412px */
+            /* right: 38%; screen 540px */
+            /* right: 28%; screen 280px*/
+            width: auto;
+            height: auto;
+            /* border: 3px solid #73AD21; */
+          }
+          .caja-absolute-texto {
+            position: absolute;
+            top: 45%;
+            right: -2%;
+            width: 100%;
+            height: auto;
+            /* border: 3px solid #08a8f1; */
+          }
+
+          .image-producto {
+            height: 185px;
+            width: auto;
+            border-radius: 5%;
+            cursor: pointer; 
+        }
+    }
